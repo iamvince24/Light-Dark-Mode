@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light/Dark Mode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="headerBar">
+      <!-- Navigation -->
+      <nav class="nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+      <!-- Dark Mode Switch -->
+      <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+          <span class="toggle-text">Light Mode</span>
+          <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+          <input type="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <section id="home">
+      <div class="title-group">
+        <h1>Discover story-worthy<br />travel moments</h1>
+        <h2>Best in travel !</h2>
+        <img
+          src="img/undraw_aircraft_re_light.svg"
+          alt="picture"
+          class="picture"
+          id="picture"
+        />
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
